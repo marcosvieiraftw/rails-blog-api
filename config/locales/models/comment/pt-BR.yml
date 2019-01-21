@@ -1,0 +1,7 @@
+pt-BR:
+  activerecord:
+    attributes:
+      comment:
+        user_id: Usuário
+        post_id: Post
+        description: Descrição
