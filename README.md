@@ -34,6 +34,7 @@
 
 # Architecture
 * All endpoints responses are sanitized to follow https://jsonapi.org/ specification.
+* All API responses codes follows https://restfulapi.net/http-status-codes/ convention.
 * Stateless with JWT authentication.
   - Token lifetime was set to 1 day.
 * Using cancan to ACL with CASL integration (Permissions sharing between UI and API.)
